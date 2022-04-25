@@ -1,6 +1,6 @@
 <?php 
 	$currentPage = 'home'; // current page name....
-	$title = 'Moto index';    
+	$title = 'Moto Index';    
 	include 'header.php'; ?>
 	
 
@@ -14,10 +14,10 @@
 			<div class="row align-items-center">
 				<div class="col-md-6 mb-5 mb-md-0">
 					<h1>
-						Top Moto Sports Trading Opportunity
+						We Have The Formula!
 					</h1>
 					<p>
-						Consistent Dividend Payments Every Month
+					Detailed statistical analysis trading across motorsport events around the globe that gives you monthly dividend payments.
 					</p>
 					<a href="register.php" class="btn btn-secondary mt-4 mt-md-5 px-3">
 						REGISTER TODAY <i class="bi bi-arrow-right ml-3"></i>
@@ -47,7 +47,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="social-fixed">
+		<div class="social-fixed d-none d-md-block d-lg-block">
 			<ul class="nav flex-column">
 				<li class="nav-item">
 					<a href="#" class="nav-link px-0" title = "Linkedin">
@@ -142,7 +142,7 @@
 				<div class="col-lg-7 col-md-6">
 					<div class="body-inner text-center">
 						<h1>
-							How it works?
+							How it works
 						</h1>
 						<ul class="nav justify-content-center mt-4 mt-lg-5">
 							<li class="nav-item">
@@ -150,7 +150,7 @@
 									1
 								</div>
 								<p>
-									Open Your Account And Deposit A Minimum Of £1,500
+									Open an account with as little as £1,500
 								</p>
 							</li>
 							<li class="nav-item">
@@ -158,7 +158,7 @@
 									2
 								</div>
 								<p>
-									Let Us Manage Your Sportfolio
+									We manage your trading account using our state of the art statistical analysis A.I.
 								</p>
 							</li>
 							<li class="nav-item">
@@ -166,7 +166,7 @@
 									3
 								</div>
 								<p>
-									Get Consistent Dividend Payments Every Month
+									Get monthly dividends paid into your account every month.
 								</p>
 							</li>
 						</ul>
@@ -190,10 +190,10 @@
 							
 							<div class="inner">
 								<h1>
-									MOTO INDEX
+									To Meet Todays challenges
 								</h1>
 								<p>
-									To meet today's challenges, we have created a unique fund management system
+									We have created a state of the art Statistical Analysis A.I. that deciphers racing data from various motorsports to place trades on trading exchanges that allow us to always be in pole position.
 								</p>
 								
 								<div class = "row mb-3 justify-content-center">
@@ -253,27 +253,27 @@
 			<div class="row justify-content-center py-4">
 				<div class="col-md-6 col-lg-4 mb-3">
 					<div class="card h-100">
-						<h1>Trade</h1>
+						<h1>Trading</h1>
 						<p>
-							The management team we have in place is comprised not just of experienced financial services professionals, traders, data analysts, eminent mathematicians and statisticians, but also former professional football players, managers, and sports media personalities.
+							Our trading department is a carefully selected team of computer scientists, professional traders, data analysts and expert arithmeticians who alongside our Statistical Analysis A.I. interpret race data, track data, weather and engineering data to help us place the most accurate trades in Formula 1, MotoGP and many more.
 						</p>
 					</div>
 				</div>
 
 				<div class="col-md-6 col-lg-4 mb-3">
 					<div class="card h-100">
-						<h1>TECHNOLOGY</h1>
+						<h1>Technology</h1>
 						<p>
-							AlgoSports Group has developed its own trading algorithm code named Algo66, based upon artificial intelligence (“AI”) which constantly refines and innovates the underlying assumptions and strategy.
+							Moto Index have developed our own Statistical Analysis Artificial Intelligence that computes over 500 different data streams to predict outcomes in motorsport events across the globe. This technology alongside our team of experts allows us to ensure that we are placing trades that keep us at the top of the grid.
 						</p>
 					</div>
 				</div>
 
 				<div class="col-md-6 col-lg-4 mb-3">
 					<div class="card h-100">
-						<h1>INTEGRITY</h1>
+						<h1>Trust</h1>
 						<p>
-							Our team remains deeply embedded in both the sports and financial markets meaning they are able to provide our clients with the peace of mind that all the staff at AlgoSports Group are experienced experts in their fields.
+							Our company brings together experts in analysis, finance, motosports, A.I. and technology to ensure that our clients have total peace of mind that every aspect of the company is managed and controlled by experienced experts. We also have an in-house compliance team that ensures that you can have total trust in how we trade and manage your account.
 						</p>
 					</div>
 				</div>
@@ -282,7 +282,7 @@
 				<div class="col-md-6 col-lg-7">
 					<div class="body-inner text-center">
 						<h1>
-							A Sports Trading Experience Like You Have Never Seen Before
+							An alternative trading experience based on facts, analysis and expert data tracking.
 						</h1>
 						<ul class="nav justify-content-center mt-4 mt-lg-5">
 							<li class="nav-item">
@@ -338,7 +338,7 @@
 							</h1>
 
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nobis quas voluptatum sint beatae nostrum rem, numquam veritatis officia consequuntur explicabo eum aut animi maxime modi illo repudiandae aperiam voluptates.
+								Moto Index have designed, developed and integrated a Statistical Analysis A.I. that constantly monitors parameters in motorsport events such as vehicle analysis, tyre wear, track conditions, driver traits and engine diagnostics. This data then is then interpreted into trades that our highly skilled team can place on trading exchanges using an approach that has been tried and tested to proven success over the past 4 years.
 							</p>
 
 							<a href="register.php" class="btn btn-light px-4" id = "contact-t">
