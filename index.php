@@ -428,7 +428,7 @@
 
 								<div class="form-group mt-4">
 									<button type="submit" class = "form-control btn-submit btn">
-										Register Account <i class="bi bi-arrow-right ml-4"></i>
+										Send Message <i class="bi bi-arrow-right ml-4"></i>
 									</button>
 								</div>
 							</form>
