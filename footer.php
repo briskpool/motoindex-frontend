@@ -61,6 +61,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+<script src="js/jquery.countup.js"></script>
 <script src="js/wow.min.js"></script>
 
 
@@ -78,5 +80,178 @@
 	$('.navbar-toggler').click(function(){
 		$(this).find('i').toggleClass("bi-list bi-x");
 	});
+
+/*Form Validation*/
+// $(".spinner-border").hide();
+$('#submit-form').click(function(){
+    const fname=$('input[name="fname"]').val();
+    const email=$('input[name="email"]').val();
+    const subject=$('input[name="subject"]').val();
+    const message=$('textarea[name="message"]').val();
+    const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    
+    if(fname==''){
+        $('.fname-error').text('This field is required');
+        return false;
+    }else{
+        $('.fname-error').text('');
+    }
+
+
+    if(email==''){
+        $('.email-error').text('This field is required');
+        return false;
+    }
+    if(!email.match(mailformat)){
+        $('.email-error').text('Invalid email address');
+        return false;
+    }else{
+        $('.email-error').text('');
+    }
+
+    
+    if(subject==''){
+        $('.subject-error').text('This field is required');
+        return false;
+    }else{
+        $('.subject-error').text('');
+    }
+
+    if(message==''){
+        $('.message-error').text('This field is required');
+        return false;
+    }
+    
+    else{
+        $('.message-error').text('');
+    }
+
+    $(".spinner-border").addClass('show');
+
+    $.post("send_email.php",
+    {
+        form: "contact",
+        f_name: fname,
+        email: email,
+        subject: subject,
+        msg: message,
+        g_recaptcha_response: grecaptcha.getResponse(),
+    },
+    
+    function(data, status){
+        // console.log(data);
+        if(data=='success'){
+            $("#success-msg").fadeIn(300).delay(3000).fadeOut(200);
+            $("input").val('');
+            $("textarea").val('');
+        }
+        else if(data=='captcha-error'){
+           $('.captcha-error').text('Captcha is required');
+        }else{
+            $("#fail-msg").fadeIn(300).delay(3000).fadeOut(200);
+        }
+    });
+
+    $(document).ajaxComplete(function(){
+        $(".spinner-border").addClass('show').fadeOut();
+    });
+
+});
+$('#register-form').click(function(){
+	
+    const fname=$('input[name="f_name"]').val();
+    const lname=$('input[name="l_name"]').val();
+    const email=$('input[name="email"]').val();
+    const phone=$('input[name="phone"]').val();
+    const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if(fname==''){
+        $('.fname-error').text('This field is required');
+        return false;
+    }else{
+        $('.fname-error').text('');
+    }
+
+    if(lname==''){
+        $('.lname-error').text('This field is required');
+        return false;
+    }else{
+        $('.lname-error').text('');
+    }
+
+    if(email==''){
+        $('.email-error').text('This field is required');
+        return false;
+    }
+    if(!email.match(mailformat)){
+        $('.email-error').text('Invalid email address');
+        return false;
+    }else{
+        $('.email-error').text('');
+    }
+
+    if(phone==''){
+        $('.phone-error').text('This field is required');
+        return false;
+    }
+    if(isNaN(phone)){
+        $('.phone-error').text('Invalid phone number');
+        return false;
+    }
+    else{
+        $('.phone-error').text('');
+    }
+
+    $(".spinner-border").show();
+
+    $.post("send_email.php",
+    {
+        form: "register",
+        f_name: fname,
+        l_name: lname,
+        email: email,
+        phone: phone,
+        g_recaptcha_response: grecaptcha.getResponse(),
+    },
+    
+    function(data, status){
+        console.log(data);
+        if(data=='success'){
+            $("#success-msg").fadeIn(300).delay(3000).fadeOut(200);
+            $("input").val('');
+        }
+        else if(data=='captcha-error'){
+           $('.captcha-error').text('Captcha is required');
+        }else{
+            $("#fail-msg").fadeIn(300).delay(3000).fadeOut(200);
+        }
+    });
+
+    $(document).ajaxComplete(function(){
+        $(".spinner-border").fadeOut();
+    });
+});
+$('#open-menu').click(function(){
+    $('.side-mobile-nav').fadeIn();
+    $('body').addClass('modal-open')
+});
+
+$('#close-menu').click(function(){
+    $('.side-mobile-nav').fadeOut();
+    $('body').removeClass('modal-open')
+});
+
+$('.side-mobile-nav .nav li a').click(function(){
+    $('.side-mobile-nav').fadeOut();
+    $('body').removeClass('modal-open')
+});
+
+jQuery(document).ready(function($) {
+    $('.counter').countUp({
+        'time': 2000,
+        'delay': 10
+    });
+});
+
+    /*Form Validation*/
 
 </script>
