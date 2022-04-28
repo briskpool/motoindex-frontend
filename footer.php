@@ -67,27 +67,27 @@
 
 
 <script>
-    var fixed_top = $(".navbar-top");
-    $(window).on("scroll", function () {
-      if ($(window).scrollTop() > 50) {
-        fixed_top.addClass("header-fixed");
-      }
-      else {
-        fixed_top.removeClass("header-fixed");
-      }
-    });
+    // var fixed_top = $(".navbar-top");
+    // $(window).on("scroll", function () {
+    //   if ($(window).scrollTop() > 50) {
+    //     fixed_top.addClass("header-fixed");
+    //   }
+    //   else {
+    //     fixed_top.removeClass("header-fixed");
+    //   }
+    // });
 	
 	$('.navbar-toggler').click(function(){
 		$(this).find('i').toggleClass("bi-list bi-x");
 	});
 
 /*Form Validation*/
-// $(".spinner-border").hide();
+$(".spinner-border").hide();
 $('#submit-form').click(function(){
     const fname=$('input[name="fname"]').val();
     const email=$('input[name="email"]').val();
     const subject=$('input[name="subject"]').val();
-    const message=$('textarea[name="message"]').val();
+    const message=$('textarea[name="msg"]').val();
     const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     
     if(fname==''){
@@ -126,7 +126,9 @@ $('#submit-form').click(function(){
         $('.message-error').text('');
     }
 
-    $(".spinner-border").addClass('show');
+    $('#submit-form').attr('disabled',true);
+    $("#ic_icon").hide();
+    $(".spinner-border").show();
 
     $.post("send_email.php",
     {
@@ -153,7 +155,10 @@ $('#submit-form').click(function(){
     });
 
     $(document).ajaxComplete(function(){
-        $(".spinner-border").addClass('show').fadeOut();
+        $(".spinner-border").fadeOut();
+        $("#ic_icon").show();
+        $('#submit-form').attr('disabled',false);
+
     });
 
 });
@@ -201,6 +206,8 @@ $('#register-form').click(function(){
         $('.phone-error').text('');
     }
 
+    $('#register-form').attr('disabled',true);
+    $("#ic_icon").hide();
     $(".spinner-border").show();
 
     $.post("send_email.php",
@@ -228,6 +235,8 @@ $('#register-form').click(function(){
 
     $(document).ajaxComplete(function(){
         $(".spinner-border").fadeOut();
+        $("#ic_icon").show();
+        $('#register-form').attr('disabled',false);
     });
 });
 $('#open-menu').click(function(){

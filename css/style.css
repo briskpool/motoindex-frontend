@@ -214,8 +214,8 @@ section .btn-secondary:hover {
 
 .navbar-top .navbar .btn-secondary {
 	width: 195px;
-    height: 60px;
-    line-height: 58px;
+    height: 50px;
+    line-height: 50px;
     justify-content: space-around;
     padding-top: 0;
     padding-bottom: 0;
