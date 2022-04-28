@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel=icon href="https://accounts.moto-index.com/images/favicon.png">
 
     <!--font css-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
