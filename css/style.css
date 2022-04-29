@@ -863,13 +863,13 @@ section.how-work .overlay {
     
     .moto-index .moto-index-content p {
         font-size: 20px;
-        max-width: 60%;
+        max-width: 70%;
         margin-bottom: 40px;
     }
     
     .moto-index .moto-index-content .card {
-        font-size: 30px;
-        width: 260px;
+        font-size: 22px;
+        width: 240px;
     }
 
     .features .overlay .card p {
@@ -1122,7 +1122,7 @@ section.how-work .overlay {
 
 @media (min-width: 1450px) {
     .about-content li {
-        font-size: 36px;
+        font-size: 28px;
      }
 }
 

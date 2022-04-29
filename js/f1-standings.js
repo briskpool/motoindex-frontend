@@ -52,7 +52,7 @@ $.ajax(get_race).done(function (response) {
         } else if (i == 2) {
           color = bronze;
         } else {
-          color = "red";
+          color = "#24242a";
         }
 
         position = rankings[i].position;

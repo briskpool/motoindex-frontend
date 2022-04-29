@@ -103,7 +103,7 @@ include 'header.php';
                         <thead>
                             <tr>
                                 <th>
-                                    Position
+                                    Rank
                                 </th>
                                 <th>
                                     Driver
