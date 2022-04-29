@@ -1,7 +1,9 @@
-<?php 
-	$currentPage = 'home'; // current page name....
-	$title = 'Moto Index';    
-	include 'header.php'; ?>
+<?php
+$currentPage = 'home'; // current page name....
+$title = 'Moto Index';
+include 'header.php';
+?>
+
 <link rel="stylesheet" href="css/standings.css">
 
 <?php include 'navbar.php'; ?>
@@ -81,7 +83,7 @@
                     </h1>
                 </div>
                 <div class="col-6 col-md-4 text-right">
-                    <a href="#" class="btn btn-light">
+                    <a href="register.php" class="btn btn-light">
                         OPEN ACCOUNT <i class="bi bi-arrow-right ml-1 ml-md-2 ml-lg-4"></i>
                     </a>
                 </div>
@@ -96,161 +98,25 @@
             <div class="row">
                 <div class="col-12">
                     <!--Standings-->
-                    <h4 class="mb-3">Australia Grand Prix</h4>
+                    <h4 class="mb-3" id="competition_name"></h4>
                     <table class="tbl-standings">
-                        <tbody>
+                        <thead>
                             <tr>
                                 <th>
-                                    Pos
+                                    Position
                                 </th>
                                 <th>
                                     Driver
                                 </th>
                                 <th>
-                                    Gap
+                                    Time
                                 </th>
                             </tr>
+                        </thead>
+                        <tbody>
+
                         </tbody>
-                        <tr class="driver">
-                            <td class="position">1</td>
-                            <td class="driver" style="border-left: 4px solid rgb(0, 210, 190);">Lewis
-                                <strong>Hamilton</strong> <span>mercedes</span>
-                            </td>
-                            <td class="gap"><span>Leader</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">2</td>
-                            <td class="driver" style="border-left: 4px solid rgb(0, 210, 190);">Valteri
-                                <strong>Bottas</strong> <span>mercedes</span>
-                            </td>
-                            <td class="gap"><span>+6.552s</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">3</td>
-                            <td class="driver" style="border-left: 4px solid rgb(220, 0, 0);">Sebastian
-                                <strong>Vettel</strong> <span>ferrari</span>
-                            </td>
-                            <td class="gap"><span>+13.744s</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">4</td>
-                            <td class="driver" style="border-left: 4px solid rgb(30, 65, 255);">Max
-                                <strong>Verstappen</strong> <span>red bull</span>
-                            </td>
-                            <td class="gap"><span>+27.627s</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">5</td>
-                            <td class="driver" style="border-left: 4px solid rgb(220, 0, 0);">Charles
-                                <strong>Leclerc</strong> <span>ferrari</span>
-                            </td>
-                            <td class="gap"><span>+31.627s</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">6</td>
-                            <td class="driver" style="border-left: 4px solid rgb(30, 65, 255);">Pierre
-                                <strong>Gasly</strong> <span>red bull</span>
-                            </td>
-                            <td class="gap"><span>+89.307s</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">7</td>
-                            <td class="driver" style="border-left: 4px solid rgb(255, 245, 0);">Daniel
-                                <strong>Ricciardo</strong> <span>renault</span>
-                            </td>
-                            <td class="gap"><span>+1 lap</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">8</td>
-                            <td class="driver" style="border-left: 4px solid rgb(245, 150, 200);">Sergio
-                                <strong>Perez</strong> <span>racing point</span>
-                            </td>
-                            <td class="gap"><span>+1 lap</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">9</td>
-                            <td class="driver" style="border-left: 4px solid rgb(155, 0, 0);">Kimi
-                                <strong>Räikkönen</strong> <span>alfa romeo</span>
-                            </td>
-                            <td class="gap"><span>+1 lap</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">10</td>
-                            <td class="driver" style="border-left: 4px solid rgb(70, 155, 255);">Alexander
-                                <strong>Albon</strong> <span>toro rosso</span>
-                            </td>
-                            <td class="gap"><span>+1 lap</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">11</td>
-                            <td class="driver" style="border-left: 4px solid rgb(189, 158, 87);">Romain
-                                <strong>Grosjean</strong> <span>haas</span>
-                            </td>
-                            <td class="gap"><span>+1 lap</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">12</td>
-                            <td class="driver" style="border-left: 4px solid rgb(245, 150, 200);">Lance
-                                <strong>Stroll</strong> <span>racing point</span>
-                            </td>
-                            <td class="gap"><span>+1 lap</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">13</td>
-                            <td class="driver" style="border-left: 4px solid rgb(189, 158, 87);">Kevin
-                                <strong>Magnussen</strong> <span>haas</span>
-                            </td>
-                            <td class="gap"><span>+1 lap</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">14</td>
-                            <td class="driver" style="border-left: 4px solid rgb(255, 135, 0);">Carlos
-                                <strong>Sainz</strong> <span>mclaren</span>
-                            </td>
-                            <td class="gap"><span>+1 lap</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">15</td>
-                            <td class="driver" style="border-left: 4px solid rgb(155, 0, 0);">Antonio
-                                <strong>Giovinazzi</strong> <span>alfa romeo</span>
-                            </td>
-                            <td class="gap"><span>+1 lap</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">16</td>
-                            <td class="driver" style="border-left: 4px solid rgb(255, 255, 255);">George
-                                <strong>Russell</strong> <span>williams</span>
-                            </td>
-                            <td class="gap"><span>+2 laps</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">17</td>
-                            <td class="driver" style="border-left: 4px solid rgb(255, 255, 255);">Robert
-                                <strong>Kubica</strong> <span>williams</span>
-                            </td>
-                            <td class="gap"><span>+2 laps</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">18</td>
-                            <td class="driver" style="border-left: 4px solid rgb(255, 135, 0);">Lando
-                                <strong>Norris</strong> <span>mclaren</span>
-                            </td>
-                            <td class="gap"><span>DNF</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">19</td>
-                            <td class="driver" style="border-left: 4px solid rgb(70, 155, 255);">Daniil
-                                <strong>Kvyat</strong> <span>toro rosso</span>
-                            </td>
-                            <td class="gap"><span>DNF</span></td>
-                        </tr>
-                        <tr class="driver">
-                            <td class="position">20</td>
-                            <td class="driver" style="border-left: 4px solid rgb(255, 245, 0);">Nico
-                                <strong>Hulkenberg</strong> <span>renault</span>
-                            </td>
-                            <td class="gap"><span>DNF</span></td>
-                        </tr>
+
                     </table>
                     <!-- Standings end -->
                 </div>
@@ -501,8 +367,7 @@
                 <div class="row">
 
                     <div class="col-lg-6 mb-4 mb-lg-0">
-                        <div
-                            class="section-right d-flex align-items-center justify-content-center h-100 position-relative">
+                        <div class="section-right d-flex align-items-center justify-content-center h-100 position-relative">
                             <img class="img-1" src="images/circle3.svg" alt="circle-img">
                             <img class="img-2" src="images/circles2.svg" alt="circle-img">
                             <div class="inner-content">
@@ -575,8 +440,7 @@
                                 </div>
                                 <div class="row g-4">
                                     <div class="col-md-12 mb-3">
-                                        <div class="g-recaptcha"
-                                            data-sitekey="6Lf1j6cfAAAAAADI-9p5n1y7vPr8NMQJeFdG6W8a"></div>
+                                        <div class="g-recaptcha" data-sitekey="6Lf1j6cfAAAAAADI-9p5n1y7vPr8NMQJeFdG6W8a"></div>
                                         <div class="text-danger captcha-error"> </div>
                                     </div>
                                 </div>
@@ -632,3 +496,4 @@
 </section>
 
 <?php include 'footer.php'; ?>
+<script src="js/f1-standings.js"></script>
