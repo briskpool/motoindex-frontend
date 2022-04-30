@@ -135,10 +135,6 @@ include 'header.php';
                         <h1>
                             How it works
                         </h1>
-                        <p>
-                            Detailed statistical analysis trading across motorsport events around the globe that gives
-                            you monthly dividend payments.
-                        </p>
                         <ul class="nav justify-content-center mt-4 mt-lg-5">
                             <li class="nav-item">
                                 <div class="sr-num">
