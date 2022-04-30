@@ -50,6 +50,19 @@
         </div>
     </div>
 </section>
+<!-- Cookies Alert Start Here -->
+<div class="wrapper-hidden" id="cookies-alert">
+    <div class="content">
+      <header>Cookies Consent</header>
+      <p>We use cookies to manage user login sessions, enhance user experience, perform essential site operations and tailor advertising and other content to reflect your specific interests. By clicking <span style="color:#fff;">"I Accept"</span> you consent to the use of cookies and similar technologies for the purposes we outline in our <a href="privacy.php" target="_blank">Privacy Policy</a>.</p> 
+      <div class="buttons">
+        <button class="btn btn-primary">I Accept</button>
+      </div>
+    </div>
+  </div>
+
+
+  
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -57,11 +70,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 <script src="js/jquery.countup.js"></script>
+<script src="js/cookies.js"></script>
 <script src="js/wow.min.js"></script>
 
 
 
 <script>
+    
     // var fixed_top = $(".navbar-top");
     // $(window).on("scroll", function () {
     //   if ($(window).scrollTop() > 50) {
