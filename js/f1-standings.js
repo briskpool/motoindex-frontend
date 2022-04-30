@@ -83,6 +83,10 @@ $.ajax(get_race).done(function (response) {
 
         $(".tbl-standings > tbody").append(output_standings).hide().fadeIn(500);
       }
+      setTimeout(() => {
+        $(".loader-container").hide();
+        $("#standings").fadeIn(500);
+      }, 500);
     }
   });
 });

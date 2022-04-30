@@ -93,4 +93,28 @@
     }
   }
 
- 
+.loader-container{
+  height: 50vh;
+  display:flex;
+  align-items: center;
+}
+.loader {
+  border: 8px solid white;
+  width: 80px;
+  height: 80px;
+  border-top-color: #0059CA;
+  border-bottom-color: #0059CA;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -96,7 +96,10 @@ include 'header.php';
     <div class="overlay py-3">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="loader-container">
+                    <div class="loader"></div>
+                </div>
+                <div class="col-12" id="standings" style="display: none;">
                     <!--Standings-->
                     <h4 class="mb-3" id="competition_name"></h4>
                     <table class="tbl-standings">
