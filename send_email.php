@@ -9,7 +9,7 @@ $user_name="info@moto-index.com";
 $mail_pass="Manchester21+motoindex";
 $from_name="Moto Index";
 $from_email="info@moto-index.com";
-$to_email="muzammil.mykhan@gmail.com";
+$to_email="info@moto-index.com";
 
 
 if (!empty($_POST['g_recaptcha_response'])) {
