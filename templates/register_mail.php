@@ -397,8 +397,8 @@
                                                                     </ul>
                                                                 </td>
                                                                 <td class="mobile-p mob-td" align="right" style="padding:10px 40px 0px 40px; font-family: 'Roboto', sans-serif;line-height: 1.5; font-weight:400;">
-                                                                    <a href="https://twitter.com/AlgoSportsGroup" style="margin-right:5px;">
-                                                                        <img src="http://accounts.algosportsgroup.com/images/email/twitter.png" alt="twitter-icon">
+                                                                    <a href="#" style="margin-right:5px;">
+                                                                        <img src="http://accounts.moto-index.com/images/email/twitter.png" alt="twitter-icon">
                                                                     </a>
                                                                 </td>
                                                             </tr>
@@ -409,8 +409,8 @@
 																			margin-bottom: 5px !important;font-size: 14px; color: #626262;font-family: 'Product sans', sans-serif;">
                                                                         See our reviews on
                                                                     </p>
-                                                                    <a href="https://www.trustpilot.com/review/algosportsgroup.com" style="margin-right:5px;">
-                                                                        <img src="http://accounts.algosportsgroup.com/images/trust-pilot.png" style="height:45px" alt="trust-pilot-icon">
+                                                                    <a href="https://www.trustpilot.com/review/moto-index.com" style="margin-right:5px;">
+                                                                        <img src="http://accounts.moto-index/images/trust-pilot.png" style="height:45px" alt="trust-pilot-icon">
                                                                     </a>
                                                                 </td>
                                                             </tr>

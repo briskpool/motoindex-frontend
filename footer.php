@@ -5,12 +5,12 @@
                 <div class="col-md-8 col-lg-6 mb-3 mb-md-0">
                     <ul class="nav">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="terms.php" class="nav-link">
                                 TERMS CONDITIONS
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="privacy.php" class="nav-link">
                                 PRIVACY POLICY
                             </a>
                         </li>
