@@ -86,12 +86,7 @@
     text-transform: uppercase;
   }
   
-  /* on smaller viewports remove the third column from sight */
-  @media (max-width: 500px) {
-    .tbl-standings tr > *:nth-child(3) {
-      
-    }
-  }
+  
 
 .loader-container{
   height: 50vh;
