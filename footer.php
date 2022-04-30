@@ -19,17 +19,12 @@
                 <div class="col-md-4 col-lg-6">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" title="Linkedin">
-                                <i class="bi bi-linkedin"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" title="twitter">
+                            <a href="https://twitter.com/motoindexhq" target="_blank" class="nav-link" title="twitter">
                                 <i class="bi bi-twitter"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link" title="Instagram">
+                            <a href="https://www.instagram.com/motoindexhq" target="_blank" class="nav-link" title="Instagram">
                                 <i class="bi bi-instagram"></i>
                             </a>
                         </li>

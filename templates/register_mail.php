@@ -397,7 +397,7 @@
                                                                     </ul>
                                                                 </td>
                                                                 <td class="mobile-p mob-td" align="right" style="padding:10px 40px 0px 40px; font-family: 'Roboto', sans-serif;line-height: 1.5; font-weight:400;">
-                                                                    <a href="#" style="margin-right:5px;">
+                                                                    <a href="https://twitter.com/motoindexhq" style="margin-right:5px;">
                                                                         <img src="http://accounts.moto-index.com/images/email/twitter.png" alt="twitter-icon">
                                                                     </a>
                                                                 </td>
