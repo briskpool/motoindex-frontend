@@ -410,7 +410,7 @@
                                                                         See our reviews on
                                                                     </p>
                                                                     <a href="https://www.trustpilot.com/review/moto-index.com" style="margin-right:5px;">
-                                                                        <img src="http://accounts.moto-index/images/trust-pilot.png" style="height:45px" alt="trust-pilot-icon">
+                                                                        <img src="http://accounts.moto-index.com/images/trust-pilot.png" style="height:45px" alt="trust-pilot-icon">
                                                                     </a>
                                                                 </td>
                                                             </tr>
