@@ -106,7 +106,7 @@ include 'header.php';
                                     Driver
                                 </th>
                                 <th>
-                                    Time
+                                    Points
                                 </th>
                             </tr>
                         </thead>
@@ -364,8 +364,7 @@ include 'header.php';
                 <div class="row">
 
                     <div class="col-lg-6 mb-4 mb-lg-0">
-                        <div
-                            class="section-right d-flex align-items-center justify-content-center h-100 position-relative">
+                        <div class="section-right d-flex align-items-center justify-content-center h-100 position-relative">
                             <img class="img-1" src="images/circle3.svg" alt="circle-img">
                             <img class="img-2" src="images/circles2.svg" alt="circle-img">
                             <div class="inner-content">
@@ -438,8 +437,7 @@ include 'header.php';
                                 </div>
                                 <div class="row g-4">
                                     <div class="col-md-12 mb-3">
-                                        <div class="g-recaptcha"
-                                            data-sitekey="6Lf1j6cfAAAAAADI-9p5n1y7vPr8NMQJeFdG6W8a"></div>
+                                        <div class="g-recaptcha" data-sitekey="6Lf1j6cfAAAAAADI-9p5n1y7vPr8NMQJeFdG6W8a"></div>
                                         <div class="text-danger captcha-error"> </div>
                                     </div>
                                 </div>
