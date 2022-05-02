@@ -5,12 +5,12 @@
                 <div class="col-md-8 col-lg-6 mb-3 mb-md-0">
                     <ul class="nav">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="terms.php" class="nav-link">
                                 TERMS CONDITIONS
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="privacy.php" class="nav-link">
                                 PRIVACY POLICY
                             </a>
                         </li>
@@ -19,17 +19,12 @@
                 <div class="col-md-4 col-lg-6">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" title="Linkedin">
-                                <i class="bi bi-linkedin"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" title="twitter">
+                            <a href="https://twitter.com/motoindexhq" target="_blank" class="nav-link" title="twitter">
                                 <i class="bi bi-twitter"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link" title="Instagram">
+                            <a href="https://www.instagram.com/motoindexhq" target="_blank" class="nav-link" title="Instagram">
                                 <i class="bi bi-instagram"></i>
                             </a>
                         </li>
@@ -55,6 +50,19 @@
         </div>
     </div>
 </section>
+<!-- Cookies Alert Start Here -->
+<div class="wrapper-hidden" id="cookies-alert">
+    <div class="content">
+      <header>Cookies Consent</header>
+      <p>We use cookies to manage user login sessions, enhance user experience, perform essential site operations and tailor advertising and other content to reflect your specific interests. By clicking <span style="color:#fff;">"I Accept"</span> you consent to the use of cookies and similar technologies for the purposes we outline in our <a href="privacy.php" target="_blank">Privacy Policy</a>.</p> 
+      <div class="buttons">
+        <button class="btn btn-primary">I Accept</button>
+      </div>
+    </div>
+  </div>
+
+
+  
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -62,11 +70,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 <script src="js/jquery.countup.js"></script>
+<script src="js/cookies.js"></script>
 <script src="js/wow.min.js"></script>
 
 
 
 <script>
+    
     // var fixed_top = $(".navbar-top");
     // $(window).on("scroll", function () {
     //   if ($(window).scrollTop() > 50) {

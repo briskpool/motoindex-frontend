@@ -18,6 +18,7 @@
     <!--custom style sheet-->
     <link rel = "stylesheet" href="css/style.css">
 	 <link rel = "stylesheet" href="css/animate.css">
+   <link rel = "stylesheet" href = "css/cookies.css">
   </head>
  
 <body>

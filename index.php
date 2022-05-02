@@ -18,8 +18,7 @@ include 'header.php';
                         We Have The Formula!
                     </h1>
                     <p>
-                        Detailed statistical analysis trading across motorsport events around the globe that gives you
-                        monthly dividend payments.
+                        Detailed Statistical Analysis Trading Across Motorsport Events Around The Globe
                     </p>
                     <a href="register.php" class="btn btn-secondary mt-4 mt-md-5 px-3">
                         REGISTER TODAY <i class="bi bi-arrow-right ml-3"></i>
@@ -53,17 +52,12 @@ include 'header.php';
         <div class="social-fixed d-none d-md-block d-lg-block">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a href="#" class="nav-link px-0" title="Linkedin">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link px-0" title="twitter">
+                    <a href="https://twitter.com/motoindexhq" target="_blank" class="nav-link px-0" title="twitter">
                         <i class="bi bi-twitter"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link px-0" title="instagram">
+                    <a href="https://www.instagram.com/motoindexhq" target="_blank" class="nav-link px-0" title="instagram">
                         <i class="bi bi-instagram"></i>
                     </a>
                 </li>
@@ -134,7 +128,7 @@ include 'header.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-6 mb-3 mb-md-0">
-                    <img src="images/img1@2x.png" class="w-100" alt="about-content-img">
+                    <img src="images/img1.png" class="w-100" alt="about-content-img">
                 </div>
                 <div class="col-lg-7 col-md-6">
                     <div class="body-inner text-center">
@@ -370,7 +364,8 @@ include 'header.php';
                 <div class="row">
 
                     <div class="col-lg-6 mb-4 mb-lg-0">
-                        <div class="section-right d-flex align-items-center justify-content-center h-100 position-relative">
+                        <div
+                            class="section-right d-flex align-items-center justify-content-center h-100 position-relative">
                             <img class="img-1" src="images/circle3.svg" alt="circle-img">
                             <img class="img-2" src="images/circles2.svg" alt="circle-img">
                             <div class="inner-content">
@@ -443,7 +438,8 @@ include 'header.php';
                                 </div>
                                 <div class="row g-4">
                                     <div class="col-md-12 mb-3">
-                                        <div class="g-recaptcha" data-sitekey="6Lf1j6cfAAAAAADI-9p5n1y7vPr8NMQJeFdG6W8a"></div>
+                                        <div class="g-recaptcha"
+                                            data-sitekey="6Lf1j6cfAAAAAADI-9p5n1y7vPr8NMQJeFdG6W8a"></div>
                                         <div class="text-danger captcha-error"> </div>
                                     </div>
                                 </div>
