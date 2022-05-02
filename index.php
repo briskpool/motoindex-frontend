@@ -499,4 +499,4 @@ include 'header.php';
 </section>
 
 <?php include 'footer.php'; ?>
-<script src="js/f1-standings.js"></script>
+<script src="js/drivers_ranking.js"></script>
