@@ -30,7 +30,7 @@
                         Moto Index (UK) Limited - Privacy Policy
                     </h2>
 					<p>
-					<span>Moto Index</span> has developed its own trading algorithm (“Algo66”),
+					<span>Moto Index</span> has developed its own trading algorithm,
 					 based upon artificial intelligence (“AI”) which constantly refines 
 					 and innovates the underlying assumptions and strategy. The trading 
 					 system continuously evolves, and the self-learning algorithm develops 
