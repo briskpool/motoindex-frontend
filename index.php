@@ -15,7 +15,7 @@ include 'header.php';
             <div class="row align-items-center">
                 <div class="col-md-6 mb-5 mb-md-0">
                     <h1>
-                        We Have The Formula!
+                        Qualify Today For Monthly Dividend Payments
                     </h1>
                     <p>
                         Detailed Statistical Analysis Trading Across Motorsport Events Around The Globe
