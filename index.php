@@ -394,7 +394,7 @@ include 'header.php';
                                             <i class="bi bi-geo-alt-fill mr-3"></i>
                                         </li>
                                         <li class="nav-item px-1">
-                                            World Trade Center 6 Bayside Road Gibraltar GX11 1AA
+                                        71-75 Shelton St, London WC2H 9JQ, United Kingdom
                                         </li>
                                     </ul>
                                 </div>
