@@ -57,6 +57,12 @@ include 'header.php';
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a href="https://g.co/kgs/F3qf2b" target="_blank" class="nav-link px-0" title="twitter">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </a>
+                </li>
+                            
+                <li class="nav-item">
                     <a href="https://www.instagram.com/motoindexhq" target="_blank" class="nav-link px-0" title="instagram">
                         <i class="bi bi-instagram"></i>
                     </a>
