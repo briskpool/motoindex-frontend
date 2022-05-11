@@ -311,7 +311,7 @@ include 'header.php';
                             </li>
                             <li class="nav-item">
                                 <h2>
-                                    £ 4.5m
+                                    £4.5m
                                 </h2>
                                 <p>
                                     WITHDRAWN EACH <br> MONTH
