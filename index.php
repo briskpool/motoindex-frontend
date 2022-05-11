@@ -289,7 +289,7 @@ include 'header.php';
                         <ul class="nav justify-content-center mt-4 mt-lg-5">
                             <li class="nav-item">
                                 <h2>
-                                    119,000
+                                    392,000
                                 </h2>
                                 <p>
                                     REGISTERED USERS
@@ -305,7 +305,7 @@ include 'header.php';
                             </li>
                             <li class="nav-item">
                                 <h2>
-                                    £ 1.1M
+                                    £ 4.5m
                                 </h2>
                                 <p>
                                     WITHDRAWN EACH <br> MONTH

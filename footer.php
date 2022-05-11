@@ -24,6 +24,11 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a href="https://g.co/kgs/F3qf2b" target="_blank" class="nav-link" title="twitter">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a href="https://www.instagram.com/motoindexhq" target="_blank" class="nav-link"
                                 title="Instagram">
                                 <i class="bi bi-instagram"></i>
@@ -85,7 +90,6 @@
 <script src="js/jquery.countup.js"></script>
 <script src="js/cookies.js"></script>
 <script src="js/wow.min.js"></script>
-
 
 
 <script>
